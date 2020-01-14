@@ -75,11 +75,11 @@ VPN::~VPN(){
 }
 
 void VPN::sudo(){
-  
   char echoSudo[200] = "echo ";
   strcat(echoSudo, senhaAdm.get_text().c_str());
   strcat(echoSudo, " | sudo -S su");
   strcat(echoSudo, " \n");
+  system(echoSudo);
 
 }
 void VPN::funConectar(){
@@ -97,7 +97,7 @@ void VPN::funConectar(){
 }
 void VPN::funDesconectar(){
   
-  VPN::sudo();
+  VPN::sudo();  
 
   system("sudo vpnc-disconnect \n");
 }
