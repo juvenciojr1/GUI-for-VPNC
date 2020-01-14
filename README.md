@@ -6,6 +6,6 @@ Using the VPNC that's amazing and usefull in a grafic mode.
 
 The files compactar.sh and executar_main.sh help to compile and exec the project.
 
-# Prerequires 
+# Prerequisite 
  - g++ 
  - gtkmm-3.0 
