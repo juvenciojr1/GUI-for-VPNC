@@ -9,3 +9,4 @@ The files compactar.sh and executar_main.sh help to compile and exec the project
 # Prerequisite 
  - g++ 
  - gtkmm-3.0 
+ -That is used with vpnc version 0.5.3r550-3
